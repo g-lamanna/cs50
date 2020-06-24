@@ -1,7 +1,8 @@
-
+/* Navbar color if nav-bar-light */
 #navigation{
     background-color: navy;
 }
+/* Adds border to navbar */
 .container{
     border: 2px solid black;
 }
@@ -9,26 +10,26 @@
 .navbar-nav {
     text-align: justify;
 }
-
 .container .row > div{
     border:3px solid black;
     padding: 2px;
     font-family: cursive
 }
-
+/* Sets text to align evenly in nav*/
 .navbar-nav {
     text-align: justify;
     min-width: 400px;
 }
 
-  /* Add a background color on mouse-over */
+/* Add a background color on mouse-over */
 .navbar-nav a:hover {
     background-color:burlywood;
   }
-  
+/* spreads out nav links evenly*/
 .navbar-nav li {
     width: 800px; 
   }
+/* Controls Navbar link colors */
 nav .container .navbar-nav .nav-item .nav-link{
     color:green;
 }
