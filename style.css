@@ -1,4 +1,34 @@
-h1 {
-    color:blue;
-    text-align:center;
+
+#navigation{
+    background-color: navy;
+}
+.container{
+    border: 2px solid black;
+}
+
+.navbar-nav {
+    text-align: justify;
+}
+
+.container .row > div{
+    border:3px solid black;
+    padding: 2px;
+    font-family: cursive
+}
+
+.navbar-nav {
+    text-align: justify;
+    min-width: 400px;
+}
+
+  /* Add a background color on mouse-over */
+.navbar-nav a:hover {
+    background-color:burlywood;
+  }
+  
+.navbar-nav li {
+    width: 800px; 
+  }
+nav .container .navbar-nav .nav-item .nav-link{
+    color:green;
 }
