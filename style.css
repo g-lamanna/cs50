@@ -1,23 +1,15 @@
 /* Navbar color if nav-bar-light */
 #navigation{
-    background-color: black;
-}
-/* Adds border to navbar */
-.container{
-    border: 2px solid black;
-}
-
-.container-fluid{
-
+    
 }
 
 .navbar-nav {
     text-align: justify;
 }
 .container .row > div{
-    border:3px solid black;
-    padding: 2px;
-    font-family: cursive
+   
+    padding: 20px;
+    font-family: sans-serif;
 }
 /* Sets text to align evenly in nav*/
 .navbar-nav {
@@ -26,26 +18,35 @@
 }
 
 /* Add a background color on mouse-over */
-.navbar-nav a:hover {
-    background-color:teal;
+.container-fluid .navbar-nav .nav-item .nav-link:hover {
+    color:gold;
+
   }
 /* spreads out nav links evenly*/
 .navbar-nav li {
-    width: 800px; 
+    width: 1000px; 
   }
 /* Controls Navbar link colors */
-nav .container .navbar-nav .nav-item .nav-link{
-    color:white;
+nav .container-fluid .navbar-nav .nav-item .nav-link{
+    color:black;
+}
+
+/* Controls Navbar link ACTIVE color */
+nav .container-fluid .navbar-nav .active .nav-link{
+    color:gold;
 }
 
 /* 
 
 
-CALI IMAGE 
+ABOUT ME
 
 
 */
-.container .row .col-5 .cali-pizza{
-    width:20%;
-    height:50%;
+
+
+/* Profile Picture */
+.brodie-gabe{
+    height:100%;
+    width:100%;
 }
