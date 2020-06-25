@@ -4,8 +4,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    
+    background-size: cover; 
   }
 
 /*                          Nav Styling                             */
@@ -26,7 +25,7 @@ nav {
 }
 /* Equal width for nav elements */
 .navbar-nav li {
-    width: 400px; 
+    width: 352px; 
 }
 
 /* Controls Navbar link colors WHEN HOVERING */
@@ -37,4 +36,17 @@ nav {
 /* Controls Navbar link ACTIVE color */
 nav .container-fluid .navbar-nav .active .nav-link{
     color:#1292EB;
+}
+
+
+#Bio .container-fluid{
+    background-color: white;
+    height:500px;
+    width:970px;
+    text-align:center;
+}
+
+.brodie-gabe{
+    width:103.5%;
+    height:100%;
 }

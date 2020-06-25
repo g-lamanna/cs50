@@ -38,3 +38,7 @@ nav {
 nav .container-fluid .navbar-nav .active .nav-link{
     color:#1292EB;
 }
+
+#Bio div{
+    border:dotted red;
+}
