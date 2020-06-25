@@ -1,23 +1,9 @@
-/* Fits Background Image */
-body { 
-    background: url("/Users/gabriel/Downloads/Pittsburgh-city.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-  }
+
+body{
+    background-color:black;
+}
 
 /*                          Nav Styling                             */
-
-/* Controls Nav border */
-nav {
-    border:solid black 2px;
-}
-/* Controls Navbar link colors */
-.container-fluid .navbar-nav .nav-item .nav-link{
-      color:black;
-    
-}
 
 .navbar-nav {
     text-align: justify;
@@ -25,28 +11,57 @@ nav {
 }
 /* Equal width for nav elements */
 .navbar-nav li {
-    width: 352px; 
+    width: 400px; 
 }
-
+/* Controls Nav border */
+/* Controls Navbar link colors */
+.container-fluid .navbar-nav .nav-item .nav-link{
+      color:white;;
+}
 /* Controls Navbar link colors WHEN HOVERING */
 .container-fluid .navbar-nav .nav-item .nav-link:hover{
-    color:#1292EB;
+    color:gold;
 }
 
 /* Controls Navbar link ACTIVE color */
 nav .container-fluid .navbar-nav .active .nav-link{
-    color:#1292EB;
+    color:gold;
+}
+
+.bio-text{
+    color:gold;
+}
+
+.bio-heading{
+    color:gold;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  .fa-instagram {
+    background: black;
+    color: gold;
+}
+  .fa-snapchat {
+    background: black;
+    color: gold;
+}
+  .fa-twitter {
+    background: black;
+    color: gold;
+}
+  .fa-linkedin {
+    background: black;
+    color: gold;
+}
+  .fa-github {
+    background: black;
+    color: gold;
 }
 
 
-#Bio .container-fluid{
-    background-color: white;
-    height:500px;
-    width:970px;
-    text-align:center;
-}
-
-.brodie-gabe{
-    width:103.5%;
-    height:100%;
-}
