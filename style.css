@@ -1,10 +1,14 @@
 /* Navbar color if nav-bar-light */
 #navigation{
-    background-color: navy;
+    background-color: black;
 }
 /* Adds border to navbar */
 .container{
     border: 2px solid black;
+}
+
+.container-fluid{
+
 }
 
 .navbar-nav {
@@ -23,7 +27,7 @@
 
 /* Add a background color on mouse-over */
 .navbar-nav a:hover {
-    background-color:burlywood;
+    background-color:teal;
   }
 /* spreads out nav links evenly*/
 .navbar-nav li {
@@ -31,5 +35,17 @@
   }
 /* Controls Navbar link colors */
 nav .container .navbar-nav .nav-item .nav-link{
-    color:green;
+    color:white;
+}
+
+/* 
+
+
+CALI IMAGE 
+
+
+*/
+.container .row .col-5 .cali-pizza{
+    width:20%;
+    height:50%;
 }
