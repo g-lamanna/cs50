@@ -65,3 +65,25 @@ nav .container-fluid .navbar-nav .active .nav-link{
 }
 
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color:gold;
+  }
+
+.card{
+    width:25rem;
+    color:gold;
+    background-color:black;
+}
+
+.card .cali > img{
+    width:30rem;
+    height:30rem;
+}
+
+.footer-copyright{
+    color:gold;
+}
