@@ -1,0 +1,47 @@
+
+body{
+    background-color:blACK;;
+}
+
+/*                          Nav Styling                             */
+
+.navbar-nav {
+    text-align: justify;
+   
+}
+/* Equal width for nav elements */
+.navbar-nav li {
+    width: 400px; 
+}
+/* Controls Nav border */
+/* Controls Navbar link colors */
+.container-fluid .navbar-nav .nav-item .nav-link{
+      color:white;;
+}
+/* Controls Navbar link colors WHEN HOVERING */
+.container-fluid .navbar-nav .nav-item .nav-link:hover{
+    color:gold;
+}
+
+/* Controls Navbar link ACTIVE color */
+nav .container-fluid .navbar-nav .active .nav-link{
+    color:gold;
+}
+
+.footer-copyright{
+    color:gold;
+}
+
+#caro-header{
+    color:gold;
+    text-align: center;
+}
+
+.container .carousel-inner > .carousel-item {
+    height:750px;
+ }
+
+.container .carousel-inner > .carousel-item > .mom > img{
+    height:750px;
+ }
+
