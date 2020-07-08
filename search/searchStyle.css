@@ -29,7 +29,14 @@ nav .container-fluid .navbar-nav .active .nav-link{
 #search-center h1{
     color:goldenrod;
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
+    font-family: "Trebuchet MS, Helvetica, sans-serif"
+}
+
+#search-center h6{
+    color:goldenrod;
+    text-align: center;
+    font-size: 14px;
     font-family: "Trebuchet MS, Helvetica, sans-serif"
 }
 /* Centers Search bar on webpage */
