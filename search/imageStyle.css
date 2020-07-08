@@ -1,0 +1,85 @@
+.navbar-nav {
+    text-align: right;  
+}
+
+.navbar-nav li{
+    height:150px;
+}
+/* Controls Nav border */
+/* Controls Navbar link colors */
+.container-fluid .navbar-nav .nav-item .nav-link{
+      color:#C8C7C2;
+      font-size: 15px;
+}
+/* Controls Navbar link colors WHEN HOVERING */
+.container-fluid .navbar-nav .nav-item .nav-link:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/* Controls Navbar link ACTIVE color */
+nav .container-fluid .navbar-nav .active .nav-link{
+    color:black;
+}
+
+.row .mango-row{
+    text-align: right;
+}
+
+#search-center h1{
+    color:goldenrod;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Trebuchet MS, Helvetica, sans-serif"
+}
+
+#search-center h6{
+    color:goldenrod;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Trebuchet MS, Helvetica, sans-serif"
+}
+/* Centers Search bar on webpage */
+#search-center{
+    position: relative;
+    width:1020px;
+    height:920px;
+    margin:0 auto;
+    text-align:center;
+}
+
+/* Sets size and width of search bar */
+/* Sets searchbar down the page a little */
+/* Sets searchbar to be round */
+.search-form .searchbar{
+    height:45px;
+    width: 55%;
+    border-radius: 15px;
+    margin:20px;
+    border: 1px gainsboro solid;
+    padding: 5px 5px 5px 25px;
+    position: center;
+}
+
+
+button{
+    background-color: #F1EDEB;
+    position: relative;
+    margin:0 auto;
+    text-align:center;
+    border:1px gainsboro solid;
+    color:#5A5756;
+    height: 40px;
+    width: 150px;
+    z-index: 10;
+    border-radius: 10px;
+    margin:5px;
+    font-size: 13px;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+
+
