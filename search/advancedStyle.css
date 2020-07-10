@@ -1,0 +1,77 @@
+nav {
+    text-align: right;
+    background-color: #f1f1f1;
+    margin:-10px;
+}
+
+/* Controls OMEGA symbol on left side of sidebar */
+.container-fluid .navbar-nav .nav-item .logo-style .nav-link {
+    color:goldenrod;
+    font-size: 30px;
+
+}
+/* Controls Nav border */
+/* Controls Navbar link colors */
+.container-fluid .navbar-nav .nav-item .nav-link{
+      color:black;
+      font-size: 15px;
+}
+/* Controls Navbar link colors WHEN HOVERING */
+.container-fluid .navbar-nav .nav-item .nav-link:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/* Controls Navbar link ACTIVE color */
+nav .container-fluid .navbar-nav .active .nav-link{
+    color:black;
+}
+
+/*Advanced Search style*/
+#adv-search-head h1{
+    color:red;
+    font-size: 19px;
+    font-family: sans-serif;
+    margin:39.5px 0px 30px 52px;
+}
+
+#adv-forms h3{
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    margin:0px 0px 0px 40px;
+}
+
+#adv-forms .form-head{
+    font-size:16px;
+    font-family: arial, sans-serif;
+    color:#333333;
+}
+
+#adv-forms .to-do-head{
+    font-size:13px;
+    font-family: arial, sans-serif;
+    color:#777777;
+    margin: 0px 0px 0px 65px;
+
+}
+
+#adv-forms .form-titles .form-head{
+    font-size: 13px;
+    color:#222222;
+}
+
+/*Search bar style*/
+.search-form .searchbar{
+    height:30px;
+    width: 124%;
+    margin: -250px;
+    border: 1px gainsboro solid;
+    padding: 10px 10px 10px 10px;
+    position: center;
+}
+/* Example searches on right side */
+#adv-forms .ex-form .ex-text{
+    font-size: 11px;
+    color:#555555;
+    margin: 5px 0px 0px -160px;
+}
